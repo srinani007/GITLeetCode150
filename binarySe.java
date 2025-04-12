@@ -27,9 +27,9 @@ public  class binarySe {
         int target = 5;
         int result = bs.lastOccurrence(nums, target);
         if (result != -1) {
-            System.out.println("The last occurrence of " + target + " is at index: " + result);
+            System.out.println(STR."The last occurrence of \{target} is at index: \{result}");
         } else {
-            System.out.println("The target " + target + " is not found in the array.");
+            System.out.println(STR."The target \{target} is not found in the array.");
         }
     }
 }
